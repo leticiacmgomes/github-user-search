@@ -9,7 +9,6 @@ export const searchUser = async (username) => {
     const response = await api.get(`/users/${username}`);
     return response.data;
   } catch (error) {
-    console.error("Error fetching user data: ", error.response.data);
     throw error;
   }
 };

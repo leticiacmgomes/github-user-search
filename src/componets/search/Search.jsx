@@ -24,7 +24,6 @@ export const Search = () => {
       handleSearch();
     }
   };
-  F;
 
   return (
     <SearchContainer>
